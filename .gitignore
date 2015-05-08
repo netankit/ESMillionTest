@@ -1,2 +1,8 @@
 ./data/*
 ./target/*
+data/
+target/
+.classpath
+.project
+org.eclipse.*
+.gitignore
