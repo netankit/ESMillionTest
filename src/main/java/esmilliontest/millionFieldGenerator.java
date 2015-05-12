@@ -25,10 +25,10 @@ public class millionFieldGenerator {
 
 		long num_of_fields = Long.parseLong(args[0]);
 		long num_of_document_ids = Long.parseLong(args[1]);
-
+		// Usage
 		if (args.length != 2) {
 			System.out
-					.println("java -jar millionFieldGenerator <num_of_fields> <num_of_document_ids>");
+					.println("Usage: java -jar millionFieldGenerator <num_of_fields> <num_of_document_ids>");
 			System.exit(0);
 		}
 
